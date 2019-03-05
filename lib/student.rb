@@ -97,7 +97,7 @@ class Student
     self.first_X_students_in_grade_10(1).first
   end
   
-  def all_students_in_grade_X(x)
+  def self.all_students_in_grade_X(x)
     grade_x_array = []
     sql = <<-SQL
       SELECT *
